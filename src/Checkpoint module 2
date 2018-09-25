@@ -1,0 +1,74 @@
+Random Checkpoint
+On paper, write code that does the following: 
+1. Get a random whole number that is less than 1,000.
+random randy = new Random();
+int x= randy.nextInt(999);
+2. Get another random whole number that is less than 900.
+random randy = new Random();
+int x= randy.nextInt(899);
+
+
+3. Print: joptionpane.showmessagediologue(null,"163");
+ joptionpane.showmessagediologue(null,"35");
+          a) What happens when you add the numbers , e.g. 99 + 64 = 163 
+          b) What happens when you subtract the numbers , e.g. 99 ­ 64 = 35 
+          
+          
+          
+      
+Relational Checkpoint
+The user is going to make some cookies.
+On paper, write code that does the following:
+1. Ask the user how many cups of flour they have. If they have less than 2 cups, tell
+them to go to the store to buy more.
+
+
+string x=joptionpane.showinputdialougue("How many cups of flour do you have");
+int i= Integer.parseInt(x)
+if(x<2){
+joptionpane.showmessagediologue(null,"Go to the store for more flour");
+}
+
+
+
+
+2. Now ask them how many people they are going to give cookies to. If they are going
+to give cookies to more than 30 people, tell them they are going to have to bake two
+batches of cookies! 
+string x=joptionpane.showinputdialougue("How many cookies r u givin people??");
+int i= Integer.parseInt(x)
+if(x<=30){
+joptionpane.showmessagediologue(null,"boy! u need two batches");
+}
+
+
+3. Finally, ask them how many batches of cookies they baked. If they baked 2 batches
+of cookies, tell them they are lucky to have so many friends. 
+string x=joptionpane.showinputdialougue("How many batches have u baked");
+int i= Integer.parseInt(x)
+if(x=2){
+joptionpane.showmessagediologue(null,"you got so many friend.......Not!!!");
+}
+
+
+1. Write code to call the printMessage method shown below
+          void printMessage() {
+                    System.out.println("message");
+           }  
+           
+           
+           printMessage();
+           
+2. Write code to call the setName method shown below
+          void setName(String name) {
+                    this.name = name;
+           } 
+           
+           setName("Wassup");
+           
+3. Write code to call the getNumber method shown below
+          int getNumber() {
+                    return number;
+           } 
+           
+          int i=getNumber();
